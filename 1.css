@@ -298,3 +298,70 @@ height: fit-content;}
 .container6 .head2 #fat{-webkit-text-fill-color:#FF0000 ;}
 .container6 .head2 #faz{-webkit-text-fill-color:#2AA9E0;}
 
+/* responsive---------------- */
+@media screen and (max-width:1100px) {
+    .container3 .head h1
+    {font-size: 13vw;}
+.container3 .head p
+{font-size: 2vw;margin-top: -16px;}
+.container3 .img2
+{width: 11.5vw;left: 0;}
+.container3 .img1
+{width: 50vw;bottom: 0;}
+.container3 .servs div {
+    width: 40vw;height: 20vw;
+}
+}    
+@media screen and (max-width:820px) {
+    .container3 .servs div {
+        width: 40vw;height: 30vw;}
+}
+@media screen and (max-width:610px) {
+    .container3 .servs div {
+        width: 40vw;height: 60vw;}
+    .container4 .head h1{font-size: 16vw;
+    }.container4 .head p{font-size: 3vw;
+
+}
+@media screen and (max-width:550px) {
+    .container3 .servs div {
+        width: 40vw;height: 80vw;}
+        .container3 .servs{margin: auto;
+        }
+        .container3 .head p
+        {
+        font-size: 4vw;margin-top: -10px;margin-left: 51px;}
+        .container5 .head h1{
+            
+            font-size: 20vw;
+        }
+        .container5 .head p{
+            margin-top: -6px;font-size:4vw;
+        }
+        
+}
+@media screen and (max-width:330px) {
+    .container3 .servs div {
+        width: 40vw;height: 140vw;}
+}
+}
+@media screen and (max-width:700px) {
+    .container6 .head h1{
+        color: #000000;opacity: 0.5;margin: 0;
+        font-size: 17vw;letter-spacing: 3px;
+    }
+    .container6 .head p{
+        margin-top: -7px;font-size: 4vw;
+        margin-left: 40px;
+    }
+    .container6 .head2 h1 a{
+        font-size:5vw ;
+    }.container2 div {
+height: 389px;
+    
+    }.container4 .head p {margin-top: 0;margin-left: 4px;font-size: 4vw;
+    } .container5 .content p
+{
+    font-size: 15px;
+}   }
+
