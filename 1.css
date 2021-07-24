@@ -85,7 +85,7 @@ color: #333;transition: 0.3s ease-in-out;
 /* ==============================landibg================ */
 .landing
 {
-    background-image: url(../images/a.jpg);background-position: center;
+    background-image:url(images/a.jpg);background-position: center;
     background-size: cover;background-repeat: no-repeat;
     height: 89vh;padding: 0;margin: 0;display: flex;
     justify-content: center;align-items: center;
