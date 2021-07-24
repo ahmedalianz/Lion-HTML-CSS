@@ -1,11 +1,19 @@
-document.body.classList.add(localStorage.getItem('pagecolor'));
-var el = document.querySelectorAll(".color-switcher li"),
-classeslist = []
-for (var i=0;i<el.length;i++){
-classeslist.push(el[i].getAttribute('data-color'));
-el[i].addEventListener('click',function() {
-    document.body.classList.remove(...classeslist);
-    document.body.classList.add(this.getAttribute("data-color"));
-    localStorage.setItem('pagecolor',this.getAttribute("data-color"))
-},false)
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
